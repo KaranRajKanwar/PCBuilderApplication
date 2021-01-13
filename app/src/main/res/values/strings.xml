@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PC Builder</string>
+
+    <!--Strings for the Account log in page-->
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="showpassword">Show Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="login">Log in</string>
+    <string name="rememberaccount">Remember Account</string>
+    <string name="or">OR</string>
+    <string name="createaccount">Create a New Account</string>
+    <string name="guestlogin">Login as Guest</string>
+    <string name="loginwithgoogle">Login with Google</string>
+
+    <!--String for Create An Account page-->
+    <string name="name">Name</string>
+    <string name="email1">Email</string>
+    <string name="Password">Password</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="create_account">Create Account</string>
+    <string name="alreadyamember">Already a member? </string>
+
+</resources>
