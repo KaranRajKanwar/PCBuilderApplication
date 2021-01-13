@@ -12,6 +12,7 @@
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".HomeScreen"></activity>
         <activity android:name=".CreateAccount"></activity>
+        <activity android:name=".ForgotPassword"></activity>
 
         <activity android:name=".SplashScreen">
             <intent-filter>

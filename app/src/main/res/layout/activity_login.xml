@@ -8,20 +8,20 @@
     android:paddingRight="16dp"
     android:orientation="vertical"
     tools:context=".LoginActivity">
-
+<!--For Email-->
     <TextView
         android:id="@+id/Email1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/email"/>
-
     <EditText
         android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
+        android:hint="Please Enter Email"
         android:layout_below="@id/Email1"/>
-
+    <!--For password-->
     <TextView
         android:id="@+id/Password1"
         android:layout_width="match_parent"
@@ -29,25 +29,39 @@
         android:layout_below="@+id/Email"
         android:text="@string/password"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Password1"
-        android:inputType="textPassword" />
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/Password1">
+    <EditText
 
-    <CheckBox
-        android:id="@+id/ForgotPassword"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Password"
-        android:text="@string/forgotpassword"/>
-
+        android:layout_below="@id/Password1"
+        app:passwordToggleEnabled="true"
+        android:ems="5"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+</com.google.android.material.textfield.TextInputLayout>
+<!--
+    <ImageButton
+        android:id="@+id/ShowPass"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/Password1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="ShowPass"
+        android:src="@drawable/hidepasseye"/>
+-->
+    <!--For Buttons-->
     <Button
         android:id="@+id/Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ForgotPassword"
+        android:layout_below="@id/Password"
         android:onClick="LoginClick"
         android:text="@string/login"/>
 
@@ -74,7 +88,15 @@
         android:layout_below="@id/CreateAccount"
         android:onClick="GuestLogin"
         android:text="@string/guestlogin"/>
-
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="match_parent"
+        android:paddingTop="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GuestLogin"
+        android:gravity="center"
+        android:onClick="ForgotPassword"
+        android:text="@string/forgotpassword"/>
 
 
 

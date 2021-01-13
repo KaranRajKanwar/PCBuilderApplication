@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1822231604",
+    "project_id": "pc-builder-cbb43",
+    "storage_bucket": "pc-builder-cbb43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1822231604:android:c53ca63a7bc6be6c598e61",
+        "android_client_info": {
+          "package_name": "com.example.pcbuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1822231604-dobndn141pm0epnvou52c5f4bd3f975p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHFWyjaD9V9Z01bRb_948zaY13mqwXFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1822231604-dobndn141pm0epnvou52c5f4bd3f975p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,6 +19,6 @@
     <string name="Password">Password</string>
     <string name="birthdate">Birthdate</string>
     <string name="create_account">Create Account</string>
-    <string name="alreadyamember">Already a member? </string>
+    <string name="alreadyamember">Already have a account? </string>
 
 </resources>
